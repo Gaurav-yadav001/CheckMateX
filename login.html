@@ -8,27 +8,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="chess-background"></div>
     <header>
-        <!-- Header content (same as other pages) -->
+        <nav>
+            <div class="logo">
+                <img src="/images/cmx-logo.webp" alt="CMX Logo" class="logo-img">
+                <span>CheckMateX</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learning-options.html">Learn</a></li>
+                <li><a href="#" class="active">Login</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="auth-container">
-            <h1>Login to <span class="highlight">CheckMateX</span></h1>
-            <form class="auth-form">
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit">Login</button>
-            </form>
-            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+            <div class="auth-box">
+                <h1>Welcome Back to <span class="highlight">CheckMateX</span></h1>
+                <p>Enter your credentials to access your personalized chess learning experience.</p>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="youremail@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Login</button>
+                </form>
+                <div class="auth-links">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <p>Don't have an account? <a href="signup.html" class="signup-link">Sign up</a></p>
+                </div>
+            </div>
+            <div class="auth-feature">
+                <h2>Why Join CheckMateX?</h2>
+                <ul>
+                    <li>🏆 Personalized learning paths</li>
+                    <li>♟️ Interactive chess puzzles</li>
+                    <li>📊 Track your progress</li>
+                    <li>🤖 Play against AI opponents</li>
+                    <li>👥 Join a community of chess enthusiasts</li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer>
-        <!-- Footer content (same as other pages) -->
+        <p>&copy; 2025 CheckMateX Chess Learning. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" class="social-icon">📘</a>
+            <a href="#" class="social-icon">🐦</a>
+            <a href="#" class="social-icon">📸</a>
+            <a href="#" class="social-icon">▶️</a>
+        </div>
     </footer>
 
     <script src="auth.js"></script>
 </body>
 </html>
 
+<body class="login-page">

@@ -134,15 +134,15 @@
   }
   
   #openings {
-    background: url("openings-bg.jpg") no-repeat center center / cover;
+    background: url("/images/Opening.png") no-repeat center center / cover;
   }
   
   #middlegames {
-    background: url("middlegames-bg.jpg") no-repeat center center / cover;
+    background: url("/images/middlegame.webp") no-repeat center center / cover;
   }
   
   #endgames {
-    background: url("endgames-bg.jpg") no-repeat center center / cover;
+    background: url("/images/endgame.webp") no-repeat center center / cover;
   }
   
   .option-content {
